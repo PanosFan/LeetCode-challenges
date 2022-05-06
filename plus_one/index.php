@@ -24,4 +24,4 @@ class Solution
         return $digits;
     }
 }
-// https://leetcode.com/problems/plus-one/submissions/
+// https://leetcode.com/problems/plus-one/
