@@ -7,7 +7,9 @@ class Solution
     {
         if ($n === 0) return false;
         $x = (log($n) / log(4));
-        return floor($x) == $x ? true : false;
+        if ($x == 0) return true;
+        if ((filter_var($x, FILTER_VALIDATE_INT))) return true;
+        return false;
     }
 }
 
