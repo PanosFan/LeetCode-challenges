@@ -14,7 +14,4 @@ class Solution
     }
 }
 
-$a = new Solution;
-$a->isPalindrome(
-    "A man, a plan, a canal -- Panama"
-);
+//https://leetcode.com/problems/valid-palindrome/
