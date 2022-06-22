@@ -16,16 +16,10 @@
 class Solution
 {
 
-    /**
-     * @param TreeNode $root
-     * @return Boolean
-     */
     function checkTree($root)
     {
-        if ($root == null) {
-            return true;
-        }
-        if ($this->left + $this->right == $this->val) return true;
+
+        if ($root->val === ($root->right->val + $root->left->val)) return true;
         return false;
     }
 }
